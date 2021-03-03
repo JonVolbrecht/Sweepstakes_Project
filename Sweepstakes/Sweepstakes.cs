@@ -33,7 +33,20 @@ namespace Sweepstakes
             contestants.Add(contestant.registrationNumber, contestant);
         }
 
+        public Contestant PickWinner()
+        {
+            winner = random.Next(1, contestants.Count());
 
+            for (int i = 0; i < contestants.Count; i++)
+            {
+                if (winner == contestant.registrationNumber)
+                {
+                    Console.WriteLine("The winner is: ");
+                }
+            }
+
+            return contestantWinner;
+        }
 
 
 

@@ -17,10 +17,14 @@ namespace Sweepstakes
         Dictionary<int, Contestant> contestants = new Dictionary<int, Contestant>();
 
 
+        public void CreateContestant()
+        {
+            contestant = new Contestant();
+            contestants.Add(contestant.registrationNumber, contestant);
 
+        }
 
-
-
+        
 
 
 

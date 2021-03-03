@@ -24,7 +24,12 @@ namespace Sweepstakes
 
         }
 
-        
+        public void CreateSweepstakes()
+        {
+
+            sweepstakesName = UserInterface.NameSweepstakes();
+
+        }
 
 
 
